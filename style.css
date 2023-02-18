@@ -1,0 +1,125 @@
+@import url(css/header.css);
+@import url(css/conteudo.css);
+@import url(css/conteudo.css);
+@import url(css/footer.css);
+@import url(css/cadastro.css);
+
+:root {
+  --font-family: "DM Sans"; 
+  --font-size-padrao: 18px;
+  --background-color: #F7F7F7;
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --lilaz: #6759ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "DM Sans";
+  }
+  body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    font-size: var(--font-size-padrao);
+  }
+  
+  @media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      object-fit: contain;
+      height: 10em;
+    }
+    .card {
+      max-width: 10em;
+      margin-top: 1em;
+    }
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 20px;
+      padding: 0 6em;
+    }
+
+    .cabecalho {
+      background-color: var(--branco);
+      padding: 1.5em;
+    }
+    .container-cabecalho, .lista-menu {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .iniciar-sessao {
+      padding: 1em 0;
+    }
+    .iniciar-sessao__link {
+      background-color: var(--preto);
+      color: var(--branco);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      margin: 0 8em;
+      border-radius: 10px;
+    }
+    .destaque {
+      display: none;
+    }
+
+    .button-value {
+      font-size: 15px;
+      border: 2px solid var(--lilaz);
+      padding: 1em;
+      border-radius: 3em;
+      background-color: transparent;
+      color: #6759ff;
+      cursor: pointer;
+    }
+
+  #products {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+    padding: 1em 0;
+    justify-content: center;
+    margin-right: 70px;
+  }
+
+  .hardware-banner {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto);
+  }
+
+  .hardware-imagem {
+    width: 20vh;
+    padding-left: 2em;
+  }
+
+  .hardware-descricao {
+    text-align: center;
+    color: var(--branco);
+    padding-left: 1em;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .rodape {
+    padding: 1em 1em 1em 1em;
+  }
+
+  .lista-sobre__item, .lista-avisos__item, .lista-redes__item {
+    padding: 0.2em 0.5em;
+  }
+
+
+  }

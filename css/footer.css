@@ -1,0 +1,28 @@
+.rodape {
+    padding: 4em 4em 1em 4em;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-sobre__item, .lista-avisos__item, .lista-redes__item {
+    padding: 0.2em 0;
+}
+
+.lista-sobre__link, .lista-avisos__link, .lista-redes__link {
+    text-decoration: none;
+    color: var(--preto);
+    cursor: pointer;
+}
+
+#links-footer:hover {
+    color: var(--lilaz);
+    text-decoration: underline;
+}
+
+.rodape-copyright {
+    padding: 1em 0;
+    text-align: center;
+}

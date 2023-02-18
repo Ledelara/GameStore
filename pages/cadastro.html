@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameStore</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cadastro.css"/>
+  </head>
+  <body>
+    <header class="cabecalho">
+        <div class="container-cabecalho">
+            <h1 class="logo">GameStore</h1>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="../index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Hardware</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Suporte</a>
+                </li>
+            </ul>
+            <div class="iniciar-sessao">
+                <a href="#" class="iniciar-sessao__link">Já sou cadastrado</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner"> 
+        <h2 class="banner-texto">Tela de cadastro</h2>
+    </section>
+
+    <main class="principal">
+        <h2 class="principal-texto">Dados do cadastro</h2>
+        <form class="principal-formulario" id="formulario" target="_blank" onsubmit="location.replace('./cadastro-finalizado.html')">
+
+            <h3 class="principal-texto__subtitulo">Dados pessoais</h3>
+
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="nome">Nome completo</label>
+                <input name="nome" id="nome" class="campo-escrita" placeholder="Seu Nome" required>
+            </div>
+            <div class="formulario-dupla">
+                <label class="campo-etiqueta" for="nascimento">Data de nascimento</label>
+                <input name="nascimento" id="nascimento" type="date" class="campo-escrita" required>
+            </div>
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="telefone">Contato</label>
+                <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo-escrita" required />
+            </div>
+        </div>
+        <div class="formulario-campo">
+            <label class="campo-etiqueta" for="email">E-mail</label>
+            <input name="email" id="email" type="email" class="campo-escrita" required />
+        </div>
+
+        <h3 class="principal-texto__subtitulo">Endereço</h3>
+
+        <div class="formulario-campo">
+            <label class="campo-etiqueta" for="cep">CEP</label>
+            <input name="cep" id="cep" class="campo-escrita" required />
+        </div>
+
+        <div id="erro"></div>
+
+        <div class="formulario-campo">
+            <label class="campo-etiqueta" for="endereco">Endereço</label>
+            <input name="endereco" id="endereco" class="campo-escrita" required />
+        </div>
+        <div class="formulario-dupla">
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="numero">Numero</label>
+                <input name="numero" id="numero" class="campo-escrita" required />
+            </div>
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="complemento">Complemento</label>
+                <input name="complemento" id="complemento" class="campo-escrita" />
+            </div>
+        </div>
+        <div class="formulario-campo">
+            <label class="campo-etiqueta" for="bairro">Bairro</label>
+            <input name="bairro" id="bairro" class="campo-escrita" required />
+        </div>
+        <div class="formulario-dupla">
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="cidade">Cidade</label>
+                <input name="cidade" id="cidade" class="campo-escrita" required />
+            </div>
+
+            <div class="formulario-campo">
+                <label class="campo-etiqueta" for="estado">UF</label>
+                <select id="estado" name="estado" class="campo-escrita">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="Enviar formulário" class="formulario-botao" id="enviar">
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="sobre">
+            <ul class="lista-sobre">
+                <li class="lista-sobre__item">
+                    <a href="#" class="lista-sobre__link" id="links-footer">Suporte</a>
+                </li>
+                <li class="lista-sobre__item">
+                    <a href="#" class="lista-sobre__link" id="links-footer">Política de privacidade</a>
+                </li>
+                <li class="lista-sobre__item">
+                    <a href="#" class="lista-sobre__link" id="links-footer">Termos de uso do site</a>
+                </li>
+                <li class="lista-sobre__item">
+                    <a href="#" class="lista-sobre__link" id="links-footer">Legal</a>
+                </li>
+            </ul>
+            <ul class="lista-avisos">
+                <li class="lista-avisos__item">
+                    <a href="#" class="lista-avisos__link" id="links-footer">Termos de serviço</a>
+                </li>
+                <li class="lista-avisos__item">
+                    <a href="#" class="lista-avisos__link" id="links-footer">Política de cancelamento</a>
+                </li>
+                <li class="lista-avisos__item">
+                    <a href="#" class="lista-avisos__link" id="links-footer">Avisos de saúde</a>
+                </li>
+                <li class="lista-avisos__item">
+                    <a href="#" class="lista-avisos__link" id="links-footer">Sobre as classificações</a>
+                </li>
+            </ul>
+            <ul class="lista-redes">
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Facebook</a>
+                </li>
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Twitter</a>
+                </li>
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Instagram</a>
+                </li>
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Youtube</a>
+                </li>
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Aplicativo para Android</a>
+                </li>
+                <li class="lista-redes__item">
+                    <a href="#" class="lista-redes__link" id="links-footer">Aplicativo para IOS</a>
+                </li>
+        </div>
+        <p class="rodape-copyright"> © 2023 GameStore. Todos os direitos reservados. </p>
+    </footer>
+    <script src="../js/cadastro.js"></script>
+    </body>
+</html>
+    
+
+    

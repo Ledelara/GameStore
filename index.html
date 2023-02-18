@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameStore</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <main>
+      <header class="cabecalho">
+        <div class="container-cabecalho">
+            <h1 class="logo">GameStore</h1>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Hardware</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Suporte</a>
+                </li>
+            </ul>
+            <div class="iniciar-sessao">
+                <a href="pages/cadastro.html" class="iniciar-sessao__link">Iniciar sessão</a>
+            </div>
+        </div>
+    </header>
+    <section class="destaque">
+      <div class="container_destaque">
+          <img  src="img/hogwarts-legacy.jpeg" class="destaque-imagem">
+      </div>
+      <div class="destaque-descricao">
+          <h1 class="destaque-descricao__texto">Hogwarts Legacy</h2>
+          <a href="#" class="destaque-descricao__link">Compre já</a>
+      </div>
+      <div class="produto-disponivel">
+          <h2 class="produto-disponivel__texto">Já disponível</h2>
+      </div>
+  </section>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Nome do jogo..."
+        />
+        <button id="search">Buscar</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('todos')">Todos</button>
+        <button class="button-value" onclick="filterProduct('acao')">
+          Ação
+        </button>
+        <button class="button-value" onclick="filterProduct('aventura')">
+          Aventura
+        </button>
+        <button class="button-value" onclick="filterProduct('corrida')">
+          Corrida
+        </button>
+        <button class="button-value" onclick="filterProduct('esporte')">
+          Esporte
+        </button>
+        <button class="button-value" onclick="filterProduct('luta')">
+          Luta
+        </button>
+        <button class="button-value" onclick="filterProduct('terror')">
+          Terror
+        </button>
+        <button class="button-value" onclick="filterProduct('rpg')">
+          RPG
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <section class="hardware">
+      <div class="hardware-banner">
+          <img src="img/ps5.png" class="hardware-imagem" id="hardware-imagem">
+          <p class="hardware-descricao">Aproveite o frete grátis e adquira já <br>o seu hardware!</p>
+      </div>
+  </section>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+  </main>
+  <footer class="rodape">
+    <div class="sobre">
+        <ul class="lista-sobre">
+            <li class="lista-sobre__item">
+                <a href="#" class="lista-sobre__link" id="links-footer">Suporte</a>
+            </li>
+            <li class="lista-sobre__item">
+                <a href="#" class="lista-sobre__link" id="links-footer">Política de privacidade</a>
+            </li>
+            <li class="lista-sobre__item">
+                <a href="#" class="lista-sobre__link" id="links-footer">Termos de uso do site</a>
+            </li>
+            <li class="lista-sobre__item">
+                <a href="#" class="lista-sobre__link" id="links-footer">Legal</a>
+            </li>
+        </ul>
+        <ul class="lista-avisos">
+            <li class="lista-avisos__item">
+                <a href="#" class="lista-avisos__link" id="links-footer">Termos de serviço</a>
+            </li>
+            <li class="lista-avisos__item">
+                <a href="#" class="lista-avisos__link" id="links-footer">Política de cancelamento</a>
+            </li>
+            <li class="lista-avisos__item">
+                <a href="#" class="lista-avisos__link" id="links-footer">Avisos de saúde</a>
+            </li>
+            <li class="lista-avisos__item">
+                <a href="#" class="lista-avisos__link" id="links-footer">Sobre as classificações</a>
+            </li>
+        </ul>
+        <ul class="lista-redes">
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Facebook</a>
+            </li>
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Twitter</a>
+            </li>
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Instagram</a>
+            </li>
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Youtube</a>
+            </li>
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Aplicativo para Android</a>
+            </li>
+            <li class="lista-redes__item">
+                <a href="#" class="lista-redes__link" id="links-footer">Aplicativo para IOS</a>
+            </li>
+    </div>
+    <p class="rodape-copyright"> © 2023 GameStore. Todos os direitos reservados. </p>
+</footer>
+  </body>
+</html>

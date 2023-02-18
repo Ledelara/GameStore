@@ -1,0 +1,39 @@
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    padding: 2em 1.5em;
+}
+
+.container-cabecalho, .lista-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-menu__item {
+    padding-left: 2em;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.lista-menu__link:hover {
+    text-decoration: underline;
+
+}
+
+.iniciar-sessao__link {
+    background-color: var(--preto);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+

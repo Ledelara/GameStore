@@ -1,0 +1,22 @@
+.cadastro-finalizado {
+    padding: 2em 0;
+}
+
+.cadastro-finalizado__titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cadastro-finalizado__container {
+    background-color: var(--branco);
+    margin: 0 16em;
+    border-radius: 15px;
+}
+
+.cadastro-finalizado__descricao {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+}

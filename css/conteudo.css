@@ -1,0 +1,142 @@
+.destaque {
+    padding: 0 0 2em 0;
+}
+
+.container_destaque {
+    text-align: center;
+}
+
+.destaque-imagem {
+    height: 500px;
+    width: 90vw;
+}
+
+.destaque-descricao {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    background-color: var(--branco);
+}
+
+.destaque-descricao__texto {
+    font-size: 22px;
+}
+
+.destaque-descricao__link {
+    background-color: var(--preto);
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.produto-disponivel {
+    padding: 0 5em 2em 5em;
+    background-color: var(--branco);
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 4em;
+  }
+  #search-container {
+    margin: 1em 0;
+  }
+  #search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+  }
+  #search-container input:focus {
+    border-bottom-color: var(--lilaz);
+  }
+  #search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: var(--lilaz);
+    color: var(--branco);
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
+  #search:hover {
+    cursor: pointer;
+  }
+  .button-value {
+    font-size: 15px;
+    border: 2px solid var(--lilaz);
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+    cursor: pointer;
+  }
+  .active {
+    background-color: var(--lilaz);
+    color: var(--branco);
+  }
+  #products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+  }
+  .card {
+    background-color: var(--branco);
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+  img {
+    border-radius: 10px;
+  }
+
+  .container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+  .container h5 {
+    font-weight: 500;
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+
+  h6 {
+    text-align: center;
+  }
+
+  .hardware-banner {
+    padding: 2em 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto);
+}
+
+.hardware-imagem {
+    width: 50vh;
+    padding-left: 8em;
+}
+
+.hardware-descricao {
+    text-align: center;
+    color: var(--branco);
+    padding-left: 5em;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 720px) {
+  
+}
