@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/122060742/222270780-cef9850e-f88f-42df-9ad9-7e07a1354373.png)
 
 ## Descrição do projeto
-* A GameStore é um projeto de página de uma loja vitual de jogos de vídeo game. Nela é possível encontrar jogos de diferentes gêneros, desde ação, aventura, esporte e muito mais. O usuário pode optar por ver o catálogo completo de jogos disponíveis ou se preferir, pode optar por aplicar um filtro e ver os jogos disponíveis por gênero.
+* A GameStore é um projeto de página de uma loja virtual de jogos de vídeo game. Nela é possível encontrar jogos de diferentes gêneros, desde ação, aventura, esporte e muito mais. O usuário pode optar por ver o catálogo completo de jogos disponíveis ou se preferir, pode optar por aplicar um filtro e ver os jogos disponíveis por gênero.
 
 ![image](https://user-images.githubusercontent.com/122060742/222270940-75899b4a-4f57-4036-b47b-352f6e4a8be8.png)
 
