@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen and (max-device-width: 900px) {
+  body {
+    width: 600px;
+  }
+}
+

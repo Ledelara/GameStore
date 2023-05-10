@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "name": "Resident Evil 4",
+      "image": "https://i.ibb.co/h7g73Q5/resident-evil-4.jpg",
+      "genre": "Terror",
+      "price": 259.90
+    },
+
+    {
+      "id": 2,
+      "name": "God Of War Ragnarok",
+      "image": "https://i.ibb.co/MPGnkHg/gow-ragnarok.png",
+      "genre": "Ação e aventura",
+      "price": 249.90
+    },
+
+    {
+      "id": 3,
+      "name": "Hogwarts Legacy",
+      "image": "https://i.ibb.co/vkDRg1J/hogwarts-legacy.png",
+      "genre": "Ação e aventura",
+      "price": 299.90
+    },
+
+    {
+      "id": 4,
+      "name": "Elden Ring",
+      "image": "https://i.ibb.co/GMhs9N7/elden-ring.png",
+      "genre": "RPG",
+      "price": 249.90
+    }, 
+    
+    {
+      "id": 5,
+      "name": "Resident Evil Village",
+      "image": "https://i.ibb.co/s2pXzrZ/resident-evil-village.jpg",
+      "genre": "Terror",
+      "price": 149.90
+    },
+
+    {
+      "id": 6,
+      "name": "Call Of Duty: Modern Warfare II",
+      "image": "https://i.ibb.co/0XGDTBY/ftiykscwqae9qq-1653411950641.jpg",
+      "genre": "Ação",
+      "price": 359.90
+    },
+
+    {
+      "id": 7,
+      "name": "FIFA 23",
+      "image": "https://i.ibb.co/1J5JsFr/fifa-23.png",
+      "genre": "Esporte",
+      "price": 249.90
+    },
+    
+    {
+      "id": 8,
+      "name": "NBA 2K23",
+      "image": "https://i.ibb.co/mhvR2GQ/nba2k23.png",
+      "genre": "Esporte",
+      "price": 75.60
+    },
+
+    {
+      "id": 9,
+      "name": "The Witcher 3: Wild Hunt Complete Edition",
+      "image": "https://i.ibb.co/2vgqtVD/the-witcher-3.png",
+      "genre": "RPG",
+      "price": 59.90
+    },
+
+    {
+      "id": 10,
+      "name": "Metal Gear Rising Revengeance",
+      "image": "https://i.ibb.co/SRDbMPg/Metal-Gear-Rising.jpg",
+      "genre": "Ação",
+      "price": 49.90
+    },
+
+    {
+      "id": 11,
+      "name": "Battlefield 2042",
+      "image": "https://i.ibb.co/BBrMLnB/battlefield-2042.jpg",
+      "genre": "Ação",
+      "price": 279.90
+    },
+    
+    {
+      "id": 12,
+      "name": "Left 4 Dead 2",
+      "image": "https://i.ibb.co/QFRjtb6/l4d2.jpg",
+      "genre": "Terror",
+      "price": 9.90
+    },
+
+    {
+      "id": 13,
+      "name": "Devil May Cry 5",
+      "image": "https://i.ibb.co/8XgbsJs/devil-may-cry-5.jpg",
+      "genre": "Ação",
+      "price": 149.90
+    },
+
+    {
+      "id": 14,
+      "name": "Mortal Kombat 11",
+      "image": "https://i.ibb.co/VmVTh5g/mortal-kombat-11.jpg",
+      "genre": "Luta",
+      "price": 249.90
+    },
+
+    {
+      "id": 15,
+      "name": "Ghost Of Tsushima",
+      "image": "https://i.ibb.co/fMVsFFx/666918-ghost-of-tsushima-playstation-4-front-cover.jpg",
+      "genre": "Ação e aventura",
+      "price": 279.90
+    }, 
+
+    {
+      "id": 16,
+      "name": "Bioshock Infinite",
+      "image": "https://i.ibb.co/dPT6m68/bioshock-infinite.png",
+      "genre": "Ação e aventura",
+      "price": 49.90
+    }
+]

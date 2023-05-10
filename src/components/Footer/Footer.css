@@ -1,0 +1,33 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 2em;
+}
+
+.footer h2 {
+    padding-top: 1em;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about a {
+    font-size: 18px;
+    padding: .5em;
+}
+
+.about a:hover {
+    cursor: pointer;
+    color: #d6d6d6;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .footer {
+        width: 900px;
+        padding: 0 0 2em 0;
+    }
+}

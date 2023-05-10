@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Resident Evil 4",
+      "image": "https://i.ibb.co/h7g73Q5/resident-evil-4.jpg",
+      "genre": "Terror",
+      "price": 259.90
+    },
+
+    {
+        "id": 2,
+        "name": "Hogwarts Legacy",
+        "image": "https://i.ibb.co/vkDRg1J/hogwarts-legacy.png",
+        "genre": "Ação e aventura",
+        "price": 299.90
+    },
+
+    {
+        "id": 3,
+        "name": "Elden Ring",
+        "image": "https://i.ibb.co/GMhs9N7/elden-ring.png",
+        "genre": "RPG",
+        "price": 249.90
+    }, 
+
+    {
+        "id": 4,
+        "name": "Call Of Duty: Modern Warfare II",
+        "image": "https://i.ibb.co/0XGDTBY/ftiykscwqae9qq-1653411950641.jpg",
+        "genre": "Ação",
+        "price": 359.90
+    },
+
+    {
+        "id": 5,
+        "name": "FIFA 23",
+        "image": "https://i.ibb.co/1J5JsFr/fifa-23.png",
+        "genre": "Esporte",
+        "price": 249.90
+    },
+
+    {
+        "id": 6,
+        "name": "NBA 2K23",
+        "image": "https://i.ibb.co/mhvR2GQ/nba2k23.png",
+        "genre": "Esporte",
+        "price": 75.60
+    },
+
+    {
+        "id": 7,
+        "name": "The Witcher 3: Wild Hunt Complete Edition",
+        "image": "https://i.ibb.co/2vgqtVD/the-witcher-3.png",
+        "genre": "RPG",
+        "price": 59.90
+    },
+
+    {
+      "id": 8,
+      "name": "God Of War Ragnarok",
+      "image": "https://i.ibb.co/MPGnkHg/gow-ragnarok.png",
+      "genre": "Ação e aventura",
+      "price": 249.90
+    }
+]
