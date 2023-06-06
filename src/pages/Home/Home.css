@@ -1,0 +1,201 @@
+.home-container {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.release-container {
+    background-color: black;
+    color: white;
+    padding: 2em;
+    margin-top: 3em;
+}
+
+.release-h2, .games-h2 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.recent-release {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 2em;
+}
+
+.recent-release p {
+    margin-left: .5em;
+}
+
+.recent-release img {
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.recent-release img:hover {
+    cursor: pointer;
+}
+
+.recent-release p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.game-container {
+    padding: 1em;
+}
+
+.filter-buttons {
+    padding: 1em;
+    margin-right: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 16px;
+}
+
+.filter-buttons:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: .5em 0;
+}
+
+.game-list ul {
+    margin: 1em;
+    max-width: 300px;
+}
+
+.game-list img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.game-list img:hover {
+    cursor: pointer;
+    filter: brightness(60%);
+    transition: filter 0.5s ease;
+}
+
+.game-list p {
+    margin: 0; 
+    padding: 0;
+}
+
+.game-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.premium-container {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.btn {
+    padding: 1em;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #363636;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #5f5f5f;
+    transition: 0.5s ease;
+}
+
+.premium-container img {
+    width: 70%;
+}
+
+.premium-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: gold;
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    .release-h2, .games-h2 {
+        margin-left: 1em;
+        padding: .5em 0;
+    }
+
+    .release-container {
+        width: 900px;
+        padding: 2em 0;
+    }
+
+    .recent-release img {
+        width: 280px;
+    }   
+
+    .recent-release p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .game-container {
+        width: 900px;
+    }
+
+    .game-list {
+        width: 126vh; 
+    }
+
+    .game-list ul {
+        margin: 1em;
+        max-width: 200px;
+    }
+
+    .game-list img {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .game-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .premium-container {
+        padding: 1em 0;
+        width: 900px;
+    }  
+
+    .premium-container img {
+        width: 50%;
+    }
+
+    .premium-container p {
+        font-size: 16px;
+    }
+}
+  
