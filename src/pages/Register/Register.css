@@ -20,6 +20,7 @@ h3 {
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
 }
 
 input {
@@ -30,18 +31,15 @@ input {
     outline: none;
 }
 
-.submit {
-    border: none;
-    background-color: black;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
+a {
+    color: #000;
 }
 
-.submit:hover {
-    cursor: pointer;
-    background-color: #363636;
+.error {
+    background-color: red;
+    padding: .5em;
+    color: #363636;
+    font-size: 16px;
 }
 
 @media only screen and (max-device-width: 900px) {

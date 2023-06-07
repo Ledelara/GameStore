@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import "./Register.css";
+import { NavLink } from 'react-router-dom';
 
 //Hooks
 import {useAuthentication} from '../../hooks/useAuthentication';
@@ -54,8 +55,13 @@ const Register = () => {
             <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} value={password} required/>
             <h3>Confirme a sua senha</h3>
             <input type="password" placeholder="Confirme sua senha" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} required/>
-            <button>Cadastrar</button>
+            {!loading && <button>Cadastrar</button>}
+            {loading && (
+              <button disabled>Aguarde...</button>
+            )}
+            {error && <p className='error'>{error}</p>}
         </form>
+        <p>Já possui cadastro? <NavLink to='/login'>Faça login</NavLink></p>
     </div>
   )
 }
