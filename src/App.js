@@ -56,8 +56,9 @@ const App = () => {
             element={user ? <Navigate to="/" replace /> : <Register />}
           />
           <Route 
-          path="/about"
-          element={<About/>}/>
+            path="/about"
+            element={user ? <About /> : <Navigate to='/' replace/>}
+          />
         </Routes>
       </BrowserRouter>
       <Footer />
