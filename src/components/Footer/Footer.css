@@ -1,28 +1,26 @@
 .footer {
-    background-color: black;
+    background-color: #000;
     color: #fff;
     padding: 2em;
 }
 
+.footer a {
+    color: #fff;
+    cursor: pointer;
+}
+
 .footer h2 {
-    padding-top: 1em;
-    margin: 0;
+    text-align: center;
 }
 
 .about {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
 
-.about a {
-    font-size: 18px;
-    padding: .5em;
-}
-
-.about a:hover {
-    cursor: pointer;
-    color: #d6d6d6;
+.about li {
+    padding: .3em;
 }
 
 @media only screen and (max-device-width: 900px) {

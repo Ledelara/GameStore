@@ -19,6 +19,7 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import About from './pages/About/About';
 
 const App = () => {
 
@@ -54,6 +55,9 @@ const App = () => {
             path="/register"
             element={user ? <Navigate to="/" replace /> : <Register />}
           />
+          <Route 
+          path="/about"
+          element={<About/>}/>
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -21,14 +21,6 @@ form {
     flex-direction: column;
 }
 
-input {
-    margin: 1em 0;
-    padding: .5em;
-    border: none;
-    border-bottom: 1px solid #363636;
-    outline: none;
-}
-
 .submit {
     border: none;
     background-color: black;

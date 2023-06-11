@@ -24,6 +24,15 @@ button:hover {
   transition: 0.5s;
 }
 
+input {
+  margin: 1em 0;
+  padding: .5em;
+  border: none;
+  border-bottom: 1px solid #363636;
+  outline: none;
+  width: 300px;
+}
+
 @media only screen and (max-device-width: 900px) {
   body {
     width: 600px;

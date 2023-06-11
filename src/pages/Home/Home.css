@@ -1,12 +1,13 @@
 .home-container {
     border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    margin-top: 5em;
 }
 
 .release-container {
     background-color: black;
     color: white;
     padding: 2em;
-    margin-top: 3em;
 }
 
 .release-h2, .games-h2 {
